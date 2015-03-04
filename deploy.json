@@ -6,10 +6,9 @@
   "prj_git_relative_dir": "",
   "branch": "master",
   "force_regenerate_git_dir": false,
-  "shared_dirs": [
-    "config"
-  ],
+  "shared_dirs": [],
   "prerun": [
+    "ln -s /opt/mina-test/etc/local.json config",
     "npm install",
     "npm test"
   ],
