@@ -12,5 +12,5 @@
     "npm install",
     "npm test"
   ],
-  "run_cmd": "npm start"
+  "run_cmd": "ln -snf `readlink /opt/mina-test/current` /opt/mina-test/active.tmp && mv -T /opt/mina-test/active.tmp /opt/mina-test/active"
 }
