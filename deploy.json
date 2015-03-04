@@ -1,0 +1,18 @@
+{
+  "server": "vagrant@vagrant",
+  "port": 2222,
+  "server_dir": "/opt/mina-test",
+  "repo": "https://akloeber@github.com/akloeber/mina-test.git",
+  "prj_git_relative_dir": "",
+  "branch": "master",
+  "force_regenerate_git_dir": false,
+  "shared_dirs": [
+    "node_modules",
+    "db"
+  ],
+  "prerun": [
+    "npm install",
+    "npm test"
+  ],
+  "run_cmd": "npm start"
+}
